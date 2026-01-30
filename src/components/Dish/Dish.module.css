@@ -1,0 +1,49 @@
+.dish_card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 15px;
+    margin-top: 50px;
+    line-height: 1.3;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #5498ff2a;
+}
+.div_div_div_div_DDD {
+    height: 100%;
+}
+.dish_title {
+    text-align: center;
+    font-size: 24px;
+    color: #ffea00;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.dish_price {
+    text-align: left;
+    margin-left: 20px;
+    color: #ff6200;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.dish_price span {
+    color: #00828e;
+}
+.dish_ingr {
+    text-align: left;
+    margin-left: 20px;
+}
+.dish_ingr span {
+    color: #00ff15;
+    font-size: 18px;
+}
+.dish_cat {
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+    color: #ff7f7f;
+}

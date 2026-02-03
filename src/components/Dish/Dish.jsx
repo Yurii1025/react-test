@@ -14,15 +14,3 @@ const Dish = ({ tittel, pris, ingredienser, kategori }) => {
 }
 
 export default Dish;
-
-
-// export default function Dish ({ dish }) {
-//     return (
-//             <article className={styles.dish_card}>
-//                 <h3 className={styles.dish_title}>{dish.tittel}</h3>
-//                 <p className={styles.dish_price}>{dish.pris}</p>
-//                 <p className={styles.dish_ingri}>Ingredienser: {dish.ingredienser}</p>
-//                 <p className={styles.dish_kategori}>Kategori: {dish.kategori}</p>
-//             </article>
-//     )
-// }

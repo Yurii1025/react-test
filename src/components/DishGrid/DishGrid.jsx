@@ -11,7 +11,6 @@ function DishGrid (props) {
         categories.push(dish.kategori);
     })
     //Received all categories (without duplicates)
-    // const newCategories = [...new Set(categories)];
     const newCategories = categories.filter((item, index) => {
         return categories.indexOf(item) === index;
     })
